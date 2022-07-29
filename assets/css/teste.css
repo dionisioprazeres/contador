@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+body{
+    background-color: #bdbdbd;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+    margin: auto;
+    
+    
+}
+
+#counter{
+    margin: 20px;
+}
+
+#counter button{
+width: 20px;
+}
